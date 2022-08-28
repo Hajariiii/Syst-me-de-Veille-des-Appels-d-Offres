@@ -202,7 +202,7 @@ def result():
       # df.to_excel('GlobalBeforeTable.xlsx')
 
       t=datetime.datetime.today()
-      t= "Appels d'offre" + t.strftime('%m/%d/%Y')+ ".xlsx"
+      t= "Appels d'offres " + t.strftime('%m/%d/%Y')+ ".xlsx"
       out = io.BytesIO()
       writer = pd.ExcelWriter(out, engine='xlsxwriter')
       df.to_excel(excel_writer=writer, index=False, sheet_name="Main")
