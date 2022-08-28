@@ -30,13 +30,13 @@ https://chromedriver.chromium.org/downloads
 ## Utilisation
 
 1. Saisir les paramètres appropriés à savoir :
-
+![1ère page](https://github.com/Hajariiii/Syst-me-de-Veille-des-Appels-d-Offres/blob/main/1erePage.png?raw=true)
 - Le chemin vers le Chrome Driver.
 - Les filtres, par exemple : " étude Digitalisation " en séparant les termes par des espaces, des virgules, des points, 'et', 'ou'..
 et valider en cliquant sur "Valider les paramètres".
 
 2. Lancer l’opération :
-
+![2ème page](https://github.com/Hajariiii/Syst-me-de-Veille-des-Appels-d-Offres/blob/main/2emePage.png?raw=true)
 - Sur la deuxième page, vérifiez le chemin et les filtres, puis cliquez sur : "Commencer l'extraction".
 - Vous allez remarquer l'ouverture d'une fenêtre Chrome qui est contrôlée par le driver : l'extraction va y avoir lieu. Vous pouvez réduire cette fenêtre sans souci.
 - Le système peut prendre entre 10 à 15 mins pour compléter l'exécution. 
