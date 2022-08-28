@@ -1,0 +1,10 @@
+numpy
+io
+flask==2.2.2
+selenium==4.4.0
+pandas
+time
+datetime
+sys
+tqdm
+nltk==3.7
