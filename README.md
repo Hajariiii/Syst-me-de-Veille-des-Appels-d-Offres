@@ -5,16 +5,16 @@
 
 
 L'application réalise l'extraction des différents données des appels d'offres publiés sur le website : MarchesPublics.gov.ma, et le filtrage de ces offres selons les filtres choisi par l'utilisateur.
-L'output est un tableau de données composés de 10 colonnes:
+L'output est un tableau de données contenant les informations suivantes:
 - Catégorie
 - Procédure
 - Référence
 - Consultation ( lien de la page consultation de l'appel d'offre )
 - Lieu d'exécution
 - Objet
-- Acheteur MarchesPublics
+- Acheteur public
 - Date limite de remise des plis
-- Heure limits
+- Heure limite
 - Date de publication
 
 
@@ -49,7 +49,7 @@ et valider en cliquant sur "Valider les paramètres".
 [Ce projet vient dans le cadre de mon stage de formation au sein de l'OCP Solutions.]
 
 Encadré par : 
-KRIMOU Kawtar , Project Manager chez OCP Solutions.
+KRIMOU Kawtar, Project Manager chez OCP Solutions.
 
 Et réalisé par :
-BELRHITI Hajar, élève ingénieure arts et métiers en 5ème année, filière : intelligence artificielle et data science.
+BELRHITI Hajar, élève ingénieure en intelligence artificielle et data science.
