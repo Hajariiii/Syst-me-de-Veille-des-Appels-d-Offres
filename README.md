@@ -42,7 +42,7 @@ et valider en cliquant sur "Valider les paramètres".
 - Le système peut prendre entre 10 à 15 mins pour compléter l'exécution. 
 - La fin de l'extraction sera marquée par la fermeture de la fenêtre contrôlée et par le téléchargement réussi de votre dataset.
 
-3. Collecter le tableau "Appels d'offre jj/mm/yyyy.xlsx"
+3. Collecter le tableau "Appels d'offres jj/mm/yyyy.xlsx"
 
 
 ## Finalement :
