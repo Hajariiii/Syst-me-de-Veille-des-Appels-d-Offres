@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+   
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <title>Accueil</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="styles/startpage.css">
+  </head>
+  
+  <body>
+    <h4>Extraire les données</h4>
+    <pre> Pour cette opération : 
+      {{ out1 }}
+      {{ out2 }}</pre>
+    
+    <pre> L'opération de l'extraction peut durer de 10 mins à 15 mins. 
+      Une nouvelle fenêtre Chrome contrôlée par le driver s'ouvrera : L'extraction va y avoir lieu. 
+      Veuillez ne pas interagir avec cette dernière.
+      Une fois la dataset est prête, la fenêtre se fermera automatiquement et le tableau de données sera téléchargé en format (.xlsx) sur votre appareil.</pre>
+      <form method="post" action="/">
+        <p> <button type="submit" value="Start" name="Start" >Commencer l'extraction</button> </p>
+      </form>
+    </p>
+
+  </body>
+{% endblock %}

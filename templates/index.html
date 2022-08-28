@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <title>Accueil</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="styles/startpage.css">
+  </head>
+  
+  <body>
+    <h4> Définir les paramètres </h4>
+    <pre>Le path par défaut vers le chrome driver ( chrome driver.exe ) est : 
+      « C:\Program Files\Google\Chrome\Application\chromedriver.exe ».
+    Pour le changer, veuillez copier le chemin de votre driver ci-dessous :</pre>
+    <form action="/change-path" method="post">
+        <p><input type="text" id="driverpath" placeholder=".../chromedriver.exe" name="driver" class = "textbox0"></p>
+        <p> Il est aussi recommendé de personnaliser les filtres. ( Séparez les termes par : des espaces, 'et', des virgules ou des points )</p>
+        <p><input type="text" id="filtre" placeholder=" " name="filtre" class = "textbox0"></p>
+        <p> 
+          <button type="submit" value="Submit">Valider les paramètres</button>
+        </p>
+      </div>
+    </form> 
+  </body>
+{% endblock %}

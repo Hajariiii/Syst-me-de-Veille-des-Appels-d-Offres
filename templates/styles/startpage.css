@@ -1,0 +1,106 @@
+body {
+  margin: 10px;
+  background-image: url("image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+img {
+  display: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 { 
+  color: #247693;
+  
+  font-size: 45px;
+  font-weight: 800;
+  text-shadow: 1px 1px 0 rgba(55, 186, 234, 0.532);
+  font-family: 'Verdana Full Stack','Serif';
+
+  line-height: 88px;
+  margin: 0 0 14px;
+  text-align: center;font-weight: bold;}
+
+
+h4 { font-size: 35px; 
+
+  letter-spacing: -1px; color:rgb(54, 163, 203); 
+  text-shadow: 1px 1px 0 rgb(161, 201, 214);
+  margin: 10px 0 24px; text-align: center;
+  font-family: 'Verdana Full Stack';
+  font-style: oblique 20deg;
+  font-weight: bold;
+
+}
+pre{
+  text-align:center;
+  font-size: 14px;
+  font-family: 'Verdana Full Stack';
+
+}
+p {
+  text-align:center;
+  font-size: 14px;
+  font-family: 'Verdana Full Stack';
+}
+
+.textbox0 {
+  height: 20px;
+  position: center;
+  border: 2px solid #2c2c2c;
+  border-color: rgba(36, 118, 147);
+  background-color: rgb(197, 232, 245);
+  font-size: 14px;
+  font-family: 'Verdana Full Stack';
+
+}
+button[type="submit"]{
+  outline: 0;
+  grid-gap: 4px;
+  align-items: center;
+  font-family: 'Verdana Full Stack';
+  background-color :rgb(0, 3, 4);
+  border: 2px solid rgb(34, 44, 48);
+  border-radius: 0px;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  gap: 1px;
+  justify-content: center;
+  line-height: 1.5;
+  overflow: hidden;
+  padding: 10px 10px;
+  color: rgb(230, 255, 255);
+  text-decoration: none;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  transition: all .14s ease-out;
+  white-space: nowrap;
+  font-weight: bold;
+}
+button:hover {
+    box-shadow: 4px 4px 0 rgb(0, 22, 29);
+    background-color: rgb(6, 100, 135);
+    transform : translate(-4px,-4px);
+}
+button:focus-visible{
+    outline-offset: 1px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
