@@ -4,7 +4,7 @@
 ## Description
 
 
-L'application réalise l'extraction des différents données des appels d'offres publiés sur le website : MarchesPublics.gov.ma, et le filtrage de ces offres selons les filtres choisi par l'utilisateur.
+L'application réalise l'extraction des différentes données des appels d'offres publiés sur le website : MarchesPublics.gov.ma, et le filtrage de ces offres selons les filtres choisis par l'utilisateur.
 L'output est un tableau de données contenant les informations suivantes:
 - Catégorie
 - Procédure
